@@ -13,27 +13,27 @@
         android:layout_height="wrap_content"
         android:src="@drawable/im1" />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/img2"
-        android:src="@drawable/im2"
-        android:visibility="gone"/>
-    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="232dp"
+        app:srcCompat="@drawable/im2"
+        android:visibility="gone"/>
+
+    <ImageView
         android:id="@+id/img3"
-        android:src="@drawable/im3"
-        android:visibility="gone"/>
-    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/im4"
+        android:visibility="gone"/>
+
+    <ImageView
         android:id="@+id/img4"
-        android:src="@drawable/im4"
-        android:visibility="gone"/>
-    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/img5"
-        android:src="@drawable/im5"
+        android:layout_height="270dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/im5"
         android:visibility="gone"/>
+
+
 </FrameLayout>
